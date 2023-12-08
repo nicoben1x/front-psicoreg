@@ -1,0 +1,21 @@
+.formAddRegistro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    margin:7px;
+}
+input {
+    height: 61px;
+}
+textarea{
+    height: 61px;
+}
+button{
+    height: 61px;
+    margin:7px;
+
+}

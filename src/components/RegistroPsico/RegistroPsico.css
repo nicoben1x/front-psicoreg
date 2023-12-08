@@ -1,0 +1,30 @@
+/* Estilo general para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para cada item del registro psicológico */
+  .registro-psico-item {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para los items dentro de cada registro */
+  .registro-psico-item li {
+    padding: 10px;
+  }
+  
+  /* Estilo adicional para mejorar la legibilidad en dispositivos móviles */
+  @media screen and (max-width: 600px) {
+    .registro-psico-item li {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+  
