@@ -9,7 +9,7 @@ const RegistroPsico = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://back-psicoreg.onrender.com/obtener-datos');
+        const response = await fetch(`${apiUrl}/obtener-datos`);
         const jsonData = await response.json();
         setData(jsonData);
       } catch (error) {

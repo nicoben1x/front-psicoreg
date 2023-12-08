@@ -9,7 +9,7 @@
 // https://back-psicoreg.onrender.com
 
 // IP Psico apiUrl2
-// 
+// https://psicoreg.onrender.com/
 
-export const apiUrl = 'http://localhost:3000';
+export const apiUrl = 'https://back-psicoreg.onrender.com';
 export const apiUrl2 = 'http://localhost:3001';

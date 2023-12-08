@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import "./AddRegistro.css"
+import { apiUrl } from "../API/ApiConfig"
+
 
 // Definir el componente funcional
 const AddRegistro = () => {
@@ -31,7 +33,7 @@ const AddRegistro = () => {
     // Por ejemplo, puedes usar fetch() para hacer una solicitud POST al servidor
 
  
-     fetch('https://back-psicoreg.onrender.com/agregar-registro', {
+     fetch(`${apiUrl}/agregar-registro`, {
        method: 'POST',
        headers: {
          'Content-Type': 'application/json',
