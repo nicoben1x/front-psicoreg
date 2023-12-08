@@ -31,7 +31,7 @@ const AddRegistro = () => {
     // Por ejemplo, puedes usar fetch() para hacer una solicitud POST al servidor
 
  
-     fetch('http://localhost:3000/agregar-registro', {
+     fetch('https://back-psicoreg.onrender.com/agregar-registro', {
        method: 'POST',
        headers: {
          'Content-Type': 'application/json',

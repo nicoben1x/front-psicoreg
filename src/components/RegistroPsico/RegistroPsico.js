@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import "./RegistroPsico.css"
+import { apiUrl } from "../API/ApiConfig"
 
 // Definir el componente funcional
 const RegistroPsico = () => {
@@ -8,7 +9,7 @@ const RegistroPsico = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:3000/obtener-datos');
+        const response = await fetch('https://back-psicoreg.onrender.com/obtener-datos');
         const jsonData = await response.json();
         setData(jsonData);
       } catch (error) {
